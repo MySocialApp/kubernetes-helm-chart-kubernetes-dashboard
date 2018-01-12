@@ -1,0 +1,12 @@
+kubernetesDashboardImageVersion: "v1.7.1"
+
+kubernetesDashboardNodeSelector:
+  - node-role.kubernetes.io/node: "true"
+
+kubernetesDashboardResources:
+  limits:
+    cpu: 100m
+    memory: 50Mi
+  requests:
+    cpu: 100m
+    memory: 50Mi
