@@ -1,4 +1,4 @@
-kubernetesDashboardImageVersion: "v1.7.1"
+kubernetesDashboardImageVersion: "v1.8.3"
 
 kubernetesDashboardNodeSelector:
   - node-role.kubernetes.io/node: "true"
